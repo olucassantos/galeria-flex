@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Minha Galeria</title>
+
+        <style>
+            body{
+                background-color: #7bf777;
+            }
+
+            .galeria{
+                width: 800px;
+                margin: 0 auto; /* Bota a galeria no centro */
+
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                justify-content: space-around;
+            }
+
+            .galeria img{
+                width: 200px;
+                height: 200px;
+
+                background-color: #b8ec58;
+                padding: 10px;
+                border: 2px dashed #023e01;
+                box-shadow: 1px 1px 2px #023e01;
+            }
+
+            .titulo{
+                text-align: center;
+                font-variant: small-caps;
+                font-family: "Trebuchet MS";
+                font-size: 3rem;
+                color: #023e01;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="titulo">Minha Galeria Safari</h1>
+
+        <div class="galeria">
+            <img src="/fotos/bufalos.jpg" alt="">
+            <img src="/fotos/crocodilo.jpg" alt="">
+            <img src="/fotos/elefante.jpg" alt="">
+            <img src="/fotos/girafa.jpg" alt="">
+            <img src="/fotos/leoes.jpg" alt="">
+            <img src="/fotos/lince.jpg" alt="">
+            <img src="/fotos/sheeta.jpg" alt="">
+            <img src="/fotos/zebra.jpg" alt="">
+        </div>
+    </body>
+</html>

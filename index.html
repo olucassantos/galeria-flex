@@ -1,53 +1,92 @@
 <html>
     <head>
-        <title>Minha Galeria</title>
+        <title>Meu safari</title>
 
         <style>
             body{
-                background-color: #7bf777;
-            }
-
-            .galeria{
-                width: 800px;
-                margin: 0 auto; /* Bota a galeria no centro */
-
-                display: flex;
-                flex-wrap: wrap;
-                gap: 20px;
-                justify-content: space-around;
-            }
-
-            .galeria img{
-                width: 200px;
-                height: 200px;
-
-                background-color: #b8ec58;
-                padding: 10px;
-                border: 2px dashed #023e01;
-                box-shadow: 1px 1px 2px #023e01;
+                background-color: #fff766;
+                /* font-family: "Trebuchet MS"; */
+                font-variant: small-caps;
             }
 
             .titulo{
                 text-align: center;
-                font-variant: small-caps;
-                font-family: "Trebuchet MS";
                 font-size: 3rem;
-                color: #023e01;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+
+            .galeria div{
+                background-color: #fff;
+                border-radius: 5px;
+                box-shadow: 1px 1px 1px #908900;
+            }
+
+            .galeria div p{
+                text-align: center;
+                font-size: 1.2rem;
+                font-weight: bold;
+            }
+
+            .galeria img{
+                width: 250px;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+            }
+
+            .galeria{
+                width: 900px;
+                margin: 0 auto; /* Posiciona a galeria no centro */
+
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                gap: 20px;
             }
         </style>
     </head>
     <body>
-        <h1 class="titulo">Minha Galeria Safari</h1>
+        <h1 class="titulo">Safari da Sala</h1>
 
         <div class="galeria">
-            <img src="/fotos/bufalos.jpg" alt="">
-            <img src="/fotos/crocodilo.jpg" alt="">
-            <img src="/fotos/elefante.jpg" alt="">
-            <img src="/fotos/girafa.jpg" alt="">
-            <img src="/fotos/leoes.jpg" alt="">
-            <img src="/fotos/lince.jpg" alt="">
-            <img src="/fotos/sheeta.jpg" alt="">
-            <img src="/fotos/zebra.jpg" alt="">
+            <div>
+                <img src="/fotos/bufalos.jpg" alt="">
+                <p>Pablo</p>
+            </div>
+            
+            <div>
+                <img src="/fotos/crocodilo.jpg" alt="">
+                <p>Valentina</p>
+            </div>
+
+            <div>
+                <img src="/fotos/elefante.jpg" alt="">
+                <p>Julia</p>
+            </div>
+
+            <div>
+                <img src="/fotos/girafa.jpg" alt="">
+                <p>Pedro</p>
+            </div>
+
+            <div>
+                <img src="/fotos/leoes.jpg" alt="">
+                <p>Lucas</p>
+            </div>
+
+            <div>
+                <img src="/fotos/sheeta.jpg" alt="">
+                <p>Luiz</p>
+            </div>
+
+            <div>
+                <img src="/fotos/lince.jpg" alt="">
+                <p>Gaby</p>
+            </div>
+
+            <div>
+                <img src="/fotos/zebra.jpg" alt="">
+                <p>Lewi</p>
+            </div>
         </div>
     </body>
 </html>
